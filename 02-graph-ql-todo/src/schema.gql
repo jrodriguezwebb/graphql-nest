@@ -5,4 +5,7 @@
 type Query {
   helloWorld: String!
   getRandomNumber: Float!
+
+  """From Zero to argument TO"""
+  getRandomRumberFromZeroTo(to: Int): Int!
 }
